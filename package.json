@@ -1,0 +1,23 @@
+{
+  "name": "dock-node",
+  "version": "1.0.0",
+  "description": "most ambitious crossover ever",
+  "main": "index.js",
+  "scripts": {
+    "test": "docker-compose up"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/terellison/dock-node.git"
+  },
+  "keywords": [
+    "docker",
+    "terellison"
+  ],
+  "author": "Terry Ellison",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/terellison/dock-node/issues"
+  },
+  "homepage": "https://github.com/terellison/dock-node#readme"
+}
