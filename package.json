@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/terellison/dock-node/issues"
   },
-  "homepage": "https://github.com/terellison/dock-node#readme"
+  "homepage": "https://github.com/terellison/dock-node#readme",
+  "devDependencies": {
+    "electron": "^9.1.0"
+  }
 }
