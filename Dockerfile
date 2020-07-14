@@ -1,0 +1,1 @@
+FROM library/node:latest

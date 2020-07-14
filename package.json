@@ -4,7 +4,7 @@
   "description": "most ambitious crossover ever",
   "main": "index.js",
   "scripts": {
-    "test": "docker-compose up"
+    "test": "docker build . -t 'nodeftp:test' && docker run nodeftp:test"
   },
   "repository": {
     "type": "git",
@@ -20,7 +20,10 @@
     "url": "https://github.com/terellison/dock-node/issues"
   },
   "homepage": "https://github.com/terellison/dock-node#readme",
-  "devDependencies": {
-    "electron": "^9.1.0"
+  "devDependencies": {},
+  "dependencies": {
+    "async": "^3.2.0",
+    "electron": "^9.1.0",
+    "osenv": "^0.1.5"
   }
 }
