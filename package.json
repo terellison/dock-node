@@ -22,7 +22,7 @@
   "homepage": "https://github.com/terellison/dock-node#readme",
   "devDependencies": {},
   "dependencies": {
-    "async": "^3.2.0",
+    "async": "^3.2.2",
     "electron": "^9.3.1",
     "osenv": "^0.1.5"
   }
